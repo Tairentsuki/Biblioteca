@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MER>
+	<Informacoes>
+		<Posicao Left="0" Top="0"/>
+		<TotalItens Valor="64"/>
+		<Tipo Valor="LÓGICO"/>
+		<Versao Valor="2.0.0"/>
+		<Autor Valor=""/>
+		<Observacao Valor=""/>
+		<Template>
+      <CAMPOS/>
+      <TIPOS/>
+      <COMPLEMENTO_CAMPOS/>
+      <COMPLEMENTO_TABELAS/>
+      <DDL>
+        <CTab_A>CREATE TABLE *$nome_tabela</CTab_A>
+        <CTab_B> (</CTab_B>
+        <CTab_Compl>*$compl_tabela</CTab_Compl>
+        <CTab_C>)*$separador*$\n</CTab_C>
+        <CCamp>*$nome_campo *$tipo_campo *$compl_campo</CCamp>
+        <Pk_inTab>-1</Pk_inTab>
+        <Fk_inTab>-1</Fk_inTab>
+        <Const_Nomear>0</Const_Nomear>
+        <CConst_Nome>*$nome_tabela_*$envol_campo</CConst_Nome>
+        <Separador></Separador>
+      </DDL>
+    </Template>
+	</Informacoes>
+	<Tabelas>
+    <Tabela nome="Autor" id="1">
+      <Left Valor="13"/>
+      <Top Valor="155"/>
+      <Width Valor="134"/>
+      <Height Valor="100"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="Id" id="7">
+          <Left Valor="13"/>
+          <Top Valor="174"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="-1"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Nome" id="8">
+          <Left Valor="13"/>
+          <Top Valor="192"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Data_Nascimento" id="9">
+          <Left Valor="13"/>
+          <Top Valor="210"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="CPF" id="10">
+          <Left Valor="13"/>
+          <Top Valor="228"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+    <Tabela nome="Livro" id="2">
+      <Left Valor="397"/>
+      <Top Valor="93"/>
+      <Width Valor="134"/>
+      <Height Valor="136"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="Id" id="11">
+          <Left Valor="397"/>
+          <Top Valor="112"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="-1"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Titulo" id="12">
+          <Left Valor="397"/>
+          <Top Valor="130"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Editora" id="13">
+          <Left Valor="397"/>
+          <Top Valor="148"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Ano" id="14">
+          <Left Valor="397"/>
+          <Top Valor="166"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Isbn" id="15">
+          <Left Valor="397"/>
+          <Top Valor="184"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Id" id="42">
+          <Left Valor="397"/>
+          <Top Valor="202"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="-1"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="5"/>
+          <CampoOrigem Valor="23"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+    <Tabela nome="Aluno" id="3">
+      <Left Valor="648"/>
+      <Top Valor="326"/>
+      <Width Valor="134"/>
+      <Height Valor="100"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="Id" id="16">
+          <Left Valor="648"/>
+          <Top Valor="345"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="-1"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Nome" id="17">
+          <Left Valor="648"/>
+          <Top Valor="363"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="RA" id="18">
+          <Left Valor="648"/>
+          <Top Valor="381"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Curso" id="19">
+          <Left Valor="648"/>
+          <Top Valor="399"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+    <Tabela nome="Emprestimo" id="4">
+      <Left Valor="631"/>
+      <Top Valor="89"/>
+      <Width Valor="134"/>
+      <Height Valor="136"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="Id" id="20">
+          <Left Valor="631"/>
+          <Top Valor="108"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="-1"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Data_Emprestimo" id="21">
+          <Left Valor="631"/>
+          <Top Valor="126"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Data_Devolucao" id="22">
+          <Left Valor="631"/>
+          <Top Valor="144"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Id" id="38">
+          <Left Valor="631"/>
+          <Top Valor="162"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="-1"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="6"/>
+          <CampoOrigem Valor="27"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Id" id="46">
+          <Left Valor="631"/>
+          <Top Valor="180"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="-1"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="2"/>
+          <CampoOrigem Valor="11"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Id" id="50">
+          <Left Valor="631"/>
+          <Top Valor="198"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="-1"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="3"/>
+          <CampoOrigem Valor="16"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+    <Tabela nome="Categoria" id="5">
+      <Left Valor="384"/>
+      <Top Valor="334"/>
+      <Width Valor="134"/>
+      <Height Valor="66"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="Id" id="23">
+          <Left Valor="384"/>
+          <Top Valor="353"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="-1"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Descricao" id="24">
+          <Left Valor="384"/>
+          <Top Valor="371"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+    <Tabela nome="Usuario" id="6">
+      <Left Valor="888"/>
+      <Top Valor="111"/>
+      <Width Valor="134"/>
+      <Height Valor="100"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="Nome" id="25">
+          <Left Valor="888"/>
+          <Top Valor="130"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Email" id="26">
+          <Left Valor="888"/>
+          <Top Valor="148"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Id" id="27">
+          <Left Valor="888"/>
+          <Top Valor="166"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="-1"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Senha" id="28">
+          <Left Valor="888"/>
+          <Top Valor="184"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+    <Tabela nome="Tem" id="29">
+      <Left Valor="185"/>
+      <Top Valor="61"/>
+      <Width Valor="134"/>
+      <Height Valor="66"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="Id" id="36">
+          <Left Valor="185"/>
+          <Top Valor="80"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="-1"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="2"/>
+          <CampoOrigem Valor="11"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="Id" id="37">
+          <Left Valor="185"/>
+          <Top Valor="98"/>
+          <Width Valor="132"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="-1"/>
+          <Tipo Valor="Texto(1)"/>
+          <TabOrigem Valor="1"/>
+          <CampoOrigem Valor="7"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+  </Tabelas>
+	<LigacaoEntreTabelas>
+    <LigaTabela nome="Livro_Tem_1" id="30">
+      <Left Valor="306"/>
+      <Top Valor="160"/>
+      <Width Valor="15"/>
+      <Height Valor="15"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="2">
+          <MostraCardinalidade Valor="-1" Card_id="31"/>
+          <Cardinalidades Cardinalidade="1">
+            <Cardinalidade nome="" id="31">
+              <Left Valor="359"/>
+              <Top Valor="123"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="1"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="29">
+          <MostraCardinalidade Valor="-1" Card_id="32"/>
+          <Cardinalidades Cardinalidade="3">
+            <Cardinalidade nome="" id="32">
+              <Left Valor="273"/>
+              <Top Valor="128"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="3"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </LigaTabela>
+    <LigaTabela nome="Autor_Tem_1" id="33">
+      <Left Valor="171"/>
+      <Top Valor="160"/>
+      <Width Valor="15"/>
+      <Height Valor="15"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="1">
+          <MostraCardinalidade Valor="-1" Card_id="34"/>
+          <Cardinalidades Cardinalidade="1">
+            <Cardinalidade nome="" id="34">
+              <Left Valor="147"/>
+              <Top Valor="190"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="1"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="29">
+          <MostraCardinalidade Valor="-1" Card_id="35"/>
+          <Cardinalidades Cardinalidade="3">
+            <Cardinalidade nome="" id="35">
+              <Left Valor="229"/>
+              <Top Valor="128"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="3"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </LigaTabela>
+    <LigaTabela nome="Usuario_Emprestimo_1" id="39">
+      <Left Valor="784"/>
+      <Top Valor="156"/>
+      <Width Valor="15"/>
+      <Height Valor="15"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="6">
+          <MostraCardinalidade Valor="-1" Card_id="40"/>
+          <Cardinalidades Cardinalidade="1">
+            <Cardinalidade nome="" id="40">
+              <Left Valor="850"/>
+              <Top Valor="146"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="1"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="4">
+          <MostraCardinalidade Valor="-1" Card_id="41"/>
+          <Cardinalidades Cardinalidade="4">
+            <Cardinalidade nome="" id="41">
+              <Left Valor="765"/>
+              <Top Valor="142"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="4"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </LigaTabela>
+    <LigaTabela nome="Categoria_Livro_1" id="43">
+      <Left Valor="373"/>
+      <Top Valor="217"/>
+      <Width Valor="15"/>
+      <Height Valor="15"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="5">
+          <MostraCardinalidade Valor="-1" Card_id="44"/>
+          <Cardinalidades Cardinalidade="1">
+            <Cardinalidade nome="" id="44">
+              <Left Valor="451"/>
+              <Top Valor="319"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="1"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="2">
+          <MostraCardinalidade Valor="-1" Card_id="45"/>
+          <Cardinalidades Cardinalidade="4">
+            <Cardinalidade nome="" id="45">
+              <Left Valor="359"/>
+              <Top Valor="168"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="4"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </LigaTabela>
+    <LigaTabela nome="Livro_Emprestimo_1" id="47">
+      <Left Valor="570"/>
+      <Top Valor="178"/>
+      <Width Valor="15"/>
+      <Height Valor="15"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="2">
+          <MostraCardinalidade Valor="-1" Card_id="48"/>
+          <Cardinalidades Cardinalidade="1">
+            <Cardinalidade nome="" id="48">
+              <Left Valor="531"/>
+              <Top Valor="146"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="1"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="4">
+          <MostraCardinalidade Valor="-1" Card_id="49"/>
+          <Cardinalidades Cardinalidade="4">
+            <Cardinalidade nome="" id="49">
+              <Left Valor="593"/>
+              <Top Valor="142"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="4"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </LigaTabela>
+    <LigaTabela nome="Aluno_Emprestimo_1" id="51">
+      <Left Valor="650"/>
+      <Top Valor="234"/>
+      <Width Valor="15"/>
+      <Height Valor="15"/>
+      <Fonte default="-1"/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="3">
+          <MostraCardinalidade Valor="-1" Card_id="52"/>
+          <Cardinalidades Cardinalidade="1">
+            <Cardinalidade nome="" id="52">
+              <Left Valor="715"/>
+              <Top Valor="311"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="1"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="4">
+          <MostraCardinalidade Valor="-1" Card_id="53"/>
+          <Cardinalidades Cardinalidade="4">
+            <Cardinalidade nome="" id="53">
+              <Left Valor="698"/>
+              <Top Valor="226"/>
+              <Width Valor="40"/>
+              <Height Valor="20"/>
+              <Fonte default="-1"/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="4"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </LigaTabela>
+  </LigacaoEntreTabelas>
+	<Texto>
+	</Texto>
+</MER>
